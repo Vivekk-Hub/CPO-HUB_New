@@ -703,8 +703,6 @@ public class DashboardServiceImpl implements DashboardService {
 
 	public List<Map<String, Object>> getClientReportYearly() {
 
-		User currentUser = userService.getCurrentUser();
-
 		List<Map<String, Object>> finalResults = new ArrayList<>();
 //		if (currentUser.getRole().equalsIgnoreCase(ERole.ADMIN.toString())) {
 		try {
